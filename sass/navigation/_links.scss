@@ -1,0 +1,95 @@
+a {
+	color: $color__link;
+
+	&:visited {
+		color: $color__link-visited;
+	}
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color__link-hover;
+	}
+	&:focus {
+		outline: thin dotted;
+	}
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}
+
+#secondary,
+#footer,
+#hidden-header,
+.no-results .notice-box {
+
+	a {
+		color: $color__link;
+
+		&:visited {
+			color: $color__link-visited;
+		}
+		&:hover,
+		&:focus,
+		&:active {
+			color: $color__link-hover;
+		}
+		&:focus {
+			outline: thin dotted;
+		}
+		&:hover,
+		&:active {
+			outline: 0;
+		}
+	}
+}
+
+.front-page {
+
+		a {
+			color: $color__text-main;
+
+		&:visited {
+			color: $color__text-main;
+		}
+		&:hover,
+		&:focus,
+		&:active {
+			color: $color__link-hover;
+		}
+	}
+}
+
+a.blog-url,
+a.portfolio-url {
+	color: $color__link;
+
+	&:visited {
+		color: $color__link-visited;
+	}
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color__link-hover;
+	}
+}
+
+.entry-meta a,
+.comment-meta a {
+	text-decoration: none;
+}
+
+.entry-meta,
+.entry-content,
+.comment-meta,
+.comment-content {
+	a {
+		color: $color__link-primary;
+
+		&:hover,
+		&:focus,
+		&:active {
+			background: $color__link-primary-hover;
+		}
+	}
+}

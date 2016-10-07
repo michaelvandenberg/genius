@@ -1,0 +1,113 @@
+/* Portfolio-filter. */
+.portfolio-filter {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+}
+.portfolio-filter ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+}
+.filter {
+	margin: 0 0.75em 0 0;
+	padding: 0.25em 0.4em;
+	list-style: none;
+}
+.filter.active {
+	background: $color__background-meta;
+}
+
+/* Portfolio items. */
+.portfolio-wrapper article {
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%;
+	margin-bottom: 5%;
+}
+
+/* Inner link. */
+.portfolio-inner,
+.featured-inner {
+	display: block;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+	padding: 5%;
+	position: absolute;
+	text-decoration: none;
+
+	&:hover,
+	&:focus,
+	&:active {
+		opacity: 1;
+	}
+}
+
+/* Center title & content. */
+.portfolio-wrapper .entry-header {
+	margin-top: 50%;
+	text-align: center;
+	transform: translateY(-50%);
+}
+
+.portfolio-title {
+	color: $color__text-light;
+	transform: translateY(25px);
+}
+.portfolio-inner {
+	&:hover,
+	&:focus,
+	&:active {
+		.portfolio-title {
+			transform: translateY(0);
+		}
+	}
+}
+
+/* Portfolio & blog urls. */
+.portfolio-url,
+.blog-url {
+	display: inline-block;
+	margin: 0.25em 0;
+	padding: 0.25em 0.4em;
+	text-decoration: none;
+	background: $color__background-dark;
+}
+.blog-url {
+	margin-bottom: 5em;
+}
+
+/* Portfolio page template. */
+.portfolio .hentry {
+	margin-bottom: 0;
+}
+
+@media screen and (min-width: $breakpoint-medium) {
+	.portfolio-wrapper article {
+		width: 48.75%;
+		padding-bottom: 48.75%;
+		margin-bottom: 2.5%;
+	}
+
+	.gutter-sizer {
+		width: 2.5%;
+	}
+}
+
+@media screen and (min-width: $breakpoint-large) {
+	.portfolio-wrapper article {
+		width: 32%;
+		padding-bottom: 32%;
+		margin-bottom: 2%;
+	}
+
+	.gutter-sizer {
+		width: 2%;
+	}
+}

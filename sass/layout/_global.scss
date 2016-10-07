@@ -1,0 +1,76 @@
+.container,
+.site-header,
+.site-content,
+.site-info,
+#footer-widgets {
+	@include site-width();
+}
+
+#hidden-header,
+.site-footer,
+#secondary .widget {
+	color: $color__text-light;
+	background: $color__background-dark;
+}
+
+/* Overlay. */
+.overlay {
+	background: $color__background-overlay;
+	
+	&:focus,
+	&:hover,
+	&:active {
+		background: $color__background-overlay-hover;
+	}
+}
+
+/* Backgroundsize cover. */
+#masthead,
+.slider-cell,
+.portfolio-wrapper article,
+.featured-posts-wrapper article {
+	background-size: cover!important;
+	background-repeat: no-repeat!important;
+	background-position: center!important;
+}
+
+/* Transitions. */
+a,
+.post-navigation span,
+.search-submit .genericon-search {
+	transition: color 0.25s;
+}
+.more-link,
+.post-navigation a,
+.site-first-letter,
+.site-icon,
+.site-title,
+.menu-toggle,
+.flickity-prev-next-button {
+	transition: background 0.25s;
+}
+input.submit,
+.portfolio-title,
+.overlay,
+.reply a,
+.tagcloud a,
+.entry-meta a,
+.tags-links a,
+.entry-content a,
+.comment-content a,
+.main-navigation a,
+.social-navigation a,
+.author-description a,
+.main-navigation a:after, {
+	transition: all 0.25s;
+}
+.post-thumbnail-link img {
+	transition: opacity 0.25s;
+}
+
+
+/* Selection. */
+::selection {
+	color: white;
+	background-color: $color__background-dark;
+}

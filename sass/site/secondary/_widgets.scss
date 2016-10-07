@@ -1,0 +1,103 @@
+.widget-header {
+	display: block;
+}
+
+.widget-title {
+	display: inline-block;
+	margin: 0;
+	margin-bottom: 1.5rem;
+	padding-bottom: 2px;
+	border-bottom: 2px solid $color__link-hover;
+	text-transform: uppercase;
+	@include font-size(1);
+}
+
+.widget {
+	margin: 0em;
+	padding: 24px 20px;
+	margin-bottom: 3rem;
+	@include font-size(1);
+
+	ul,
+	ul.sub-menu,
+	ul.children {
+		margin-left: 24px;
+		margin-left: 1.5rem;
+	}
+	li:not(:first-child) {
+		margin-top: 8px;
+		margin-top: 0.5rem;
+	}
+	&.widget_recent_comments,
+	&.widget_categories,
+	&.widget_archive,
+	&.widget_recent_entries,
+	&.widget_rss,
+	&.widget_meta,
+	&.widget_pages,
+	&.widget_links,
+	&.widget_nav_menu {
+		ul {
+			margin: 0;
+			padding-left: 0;
+			list-style: none;
+		}
+		ul.sub-menu,
+		ul.children {
+			margin-left: 24px;
+			margin-left: 1.5rem;
+			li {
+				margin-top: 8px;
+				margin-top: 0.5rem;
+			}
+		}
+	}
+	&.widget_recent_comments,
+	&.widget_recent_entries,
+	&.widget_categories,
+	&.widget_archive,
+	&.widget_rss,
+	&.widget_meta,
+	&.widget_pages,
+	&.widget_links {
+		li {
+			padding-bottom: 4px;
+		}
+		a {
+			display: inline-block;
+			text-decoration: none;
+		}
+	}
+	&.widget_calendar {
+		caption {
+			margin-bottom: 4px;
+		}
+		tbody td {
+			text-align: center;
+		}
+	}
+	&.widget_tag_cloud {
+		a {
+			
+		}
+	}
+
+	/* Make sure select elements fit in widgets. */
+	select {
+		max-width: 100%;
+	}
+}
+
+/* Styles for Jetpack widgets. */
+.widget-grofile .widget-title  {
+	padding-bottom: 20px;
+}
+.widget_contact_info {
+	.contact-map {
+		margin-bottom: 20px;
+	}
+	.confit-address,
+	.confit-phone {
+		margin-bottom: 8px;
+	}
+}

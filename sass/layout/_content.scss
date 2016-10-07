@@ -1,0 +1,33 @@
+.has-sidebar {
+	#content {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+}
+
+.fp-excerpt,
+.fp-content,
+.portfolio-filter,
+.featured-area,
+.page-template-template-portfolio .portfolio-wrapper {
+	margin: 2em 0;
+}
+
+@media screen and (min-width: $breakpoint-large) {
+	.has-sidebar {
+		#content {
+			flex-direction: row;
+		}
+		#primary {
+			padding-right: 3%;
+			width: $size__content;
+			max-width:$size__max-content;
+		}
+		#secondary {
+			padding-left: 3%;
+			width: $size__sidebar;
+			max-width: $size__max-sidebar;
+		}
+	}
+}

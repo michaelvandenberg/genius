@@ -1,0 +1,130 @@
+/* Posts navigation. */
+.posts-navigation {
+	margin-bottom: 2.5em;
+	font-size: 90%;
+
+	.nav-links {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.nav-previous a,
+	.nav-next a {
+		display: inline-block;
+		padding: 5px 12px 7px;
+		text-decoration: none;
+		background: $color__background-dark;
+	}
+
+	.nav-previous a:before {
+		position: relative;
+		top: 2px;
+		content: '\f430';
+		font-family: Genericons;
+	}
+	.nav-next a:after {
+		position: relative;
+		top: 2px;
+		content: '\f429';
+		font-family: Genericons;
+	}
+}
+
+/* Post navigation. */
+.post-navigation {
+	.nav-links {
+		padding: 0 0 3em 0;
+	}
+	.nav-links div:nth-child(2) {
+		margin-top: 3em;
+	}
+	.nav-next,
+	.nav-previous {
+		min-height: 160px;
+		background-size: cover !important;
+		background-repeat: no-repeat !important;
+		background-position: center !important;
+		background-color: $color__background-post-navigation;
+	}
+	a {
+		display: block;
+		width: 100%;
+		min-height: 160px;
+		padding: 40px 20px;
+		text-decoration: none;
+		background: $color__background-overlay;
+	}
+	a:hover,
+	a:focus {
+		background: $color__background-overlay-hover;
+	}
+	.meta-nav,
+	.post-title {
+		display: block;
+	}
+	.meta-nav {
+		margin-bottom: 0.5em;
+		letter-spacing: 4px;
+		font-size: 14px;
+	}
+	.post-title {
+		font-size: 1.5em;
+		font-weight: bold;
+	}
+	a:hover .meta-nav,
+	a:focus .meta-nav,
+	a:hover .post-title,
+	a:focus .post-title {
+		color: $color__link-hover;
+	}
+}
+
+/* Portfolio pagination. */
+.portfolio-pagination {
+	display: flex;
+	margin: 2.5rem 0;
+	padding: 0;
+	font-size: 90%;
+
+	.nav-previous a,
+	.nav-next a {
+		display: inline-block;
+		padding: 5px 12px 7px;
+		text-decoration: none;
+		background: $color__background-dark;
+	}
+
+	.nav-next {
+		margin-left: auto;
+	}
+
+	.nav-previous a:before {
+		position: relative;
+		top: 2px;
+		content: '\f430';
+		font-family: Genericons;
+	}
+	.nav-next a:after {
+		position: relative;
+		top: 2px;
+		content: '\f429';
+		font-family: Genericons;
+	}
+}
+
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+@import "links";
+
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+@import "menus";
+
+/*--------------------------------------------------------------
+## Social
+--------------------------------------------------------------*/
+@import "social";

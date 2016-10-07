@@ -1,0 +1,40 @@
+table {
+	margin: 0 0 1.5em;
+	width: 100%;
+	max-width: 100%;
+	border: 2px solid currentcolor;
+	@include font-size(1);
+}
+thead tr {
+	color: white;
+	background: $color__background-dark;
+}
+thead tr th,
+tbody tr th,
+tbody tr td,
+tfoot tr th,
+tfoot tr td {
+	border: 2px solid $color__background-dark;
+}
+thead tr th {
+	padding: 0.25rem;
+}
+tbody tr th,
+tbody tr td,
+tfoot tr th,
+tfoot tr td {
+	padding: 0.125rem 0.25rem;
+}
+tfoot tr {
+}
+
+/* Fix border for the dark footer. */
+.widget {
+	thead tr th,
+	tbody tr th,
+	tbody tr td,
+	tfoot tr th,
+	tfoot tr td {
+		border-color: currentcolor;
+	}
+}

@@ -1,0 +1,414 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Genius\n"
+"POT-Creation-Date: 2016-09-29 21:46+0200\n"
+"PO-Revision-Date: 2016-09-29 21:45+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:33
+msgid "Most Used Categories"
+msgstr ""
+
+#: 404.php:51
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:40 comments.php:62
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:43 comments.php:65
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:44 comments.php:66
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:79
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:27
+msgid "Powered by "
+msgstr ""
+
+#: footer.php:27
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: footer.php:29
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:63
+msgid "Primary"
+msgstr ""
+
+#: functions.php:64
+msgid "Social Links"
+msgstr ""
+
+#: functions.php:122
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:131
+msgid "Footer"
+msgstr ""
+
+#: functions.php:159
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:212
+msgid "Search Toggle"
+msgstr ""
+
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:66
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer.php:21
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer.php:22
+msgid ""
+"This theme supports a number of options which you can set using this panel."
+msgstr ""
+
+#: inc/customizer.php:27
+msgid "Front Page Options"
+msgstr ""
+
+#: inc/customizer.php:30
+msgid ""
+"To customize the appearance of pages using the front page template adjust "
+"any of the settings below."
+msgstr ""
+
+#: inc/customizer.php:35
+msgid "Footer Options"
+msgstr ""
+
+#: inc/customizer.php:38
+msgid "Replace the default copyright text."
+msgstr ""
+
+#: inc/customizer.php:48
+msgid "Number of portfolio items: "
+msgstr ""
+
+#: inc/customizer.php:60
+msgid "The text of the portfolio read more link: "
+msgstr ""
+
+#: inc/customizer.php:72
+msgid "Number of featured items: "
+msgstr ""
+
+#: inc/customizer.php:79 inc/template-tags.php:200
+msgid "Read more"
+msgstr ""
+
+#: inc/customizer.php:84
+msgid "The text of the featured read more link: "
+msgstr ""
+
+#: inc/customizer.php:96
+msgid "Your custom copyright text: "
+msgstr ""
+
+#: inc/plugin-enhancements.php:67
+#, php-format
+msgid ""
+"The %1$s is necessary to use some of this theme&rsquo;s features, including: "
+msgstr ""
+
+#: inc/plugin-enhancements.php:68
+msgid "Jetpack plugin"
+msgstr ""
+
+#: inc/plugin-enhancements.php:87
+msgid "Site Logo"
+msgstr ""
+
+#: inc/plugin-enhancements.php:95
+msgid "Featured Content"
+msgstr ""
+
+#: inc/plugin-enhancements.php:103
+msgid "Social Menu"
+msgstr ""
+
+#: inc/plugin-enhancements.php:111
+msgid "Menus"
+msgstr ""
+
+#: inc/plugin-enhancements.php:119
+msgid "Comics"
+msgstr ""
+
+#: inc/plugin-enhancements.php:127
+msgid "Testimonials"
+msgstr ""
+
+#: inc/plugin-enhancements.php:135
+msgid "Portfolios"
+msgstr ""
+
+#: inc/plugin-enhancements.php:151
+msgid "no specific module needed"
+msgstr ""
+
+#: inc/plugin-enhancements.php:152
+msgid "Custom Content Types module"
+msgstr ""
+
+#: inc/plugin-enhancements.php:217
+#, php-format
+msgid " Please activate %1$s. %2$s"
+msgstr ""
+
+#: inc/plugin-enhancements.php:219
+msgid "Activate"
+msgstr ""
+
+#: inc/plugin-enhancements.php:226
+#, php-format
+msgid " Please install %1$s. %2$s"
+msgstr ""
+
+#: inc/plugin-enhancements.php:228
+msgid "Install"
+msgstr ""
+
+#: inc/plugin-enhancements.php:249
+#, php-format
+msgid "To use %1$s, please activate the Jetpack plugin&rsquo;s %2$s."
+msgstr ""
+
+#: inc/plugin-enhancements.php:335
+msgid "Your request failed permission check."
+msgstr ""
+
+#: inc/plugin-enhancements.php:342
+msgid "Your request was processed. See ya!"
+msgstr ""
+
+#: inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:67
+msgid "No Comments"
+msgstr ""
+
+#: inc/template-tags.php:67
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:67
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:243
+msgid "Discover more"
+msgstr ""
+
+#: search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:13
+msgctxt "before form"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:14
+msgid "Search..."
+msgstr ""
+
+#: searchform.php:14
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:16
+msgid "Search Submit"
+msgstr ""
+
+#: single.php:29
+msgid "Next"
+msgstr ""
+
+#: single.php:29
+msgid "Next post:"
+msgstr ""
+
+#: single.php:30
+msgid "Previous"
+msgstr ""
+
+#: single.php:30
+msgid "Previous post:"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:26 template-parts/content.php:40
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content.php:35
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/part-author-bio.php:10
+msgid "Published by"
+msgstr ""
+
+#: template-parts/part-author-bio.php:36
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: template-parts/part-featured-posts.php:39
+#, php-format
+msgid ""
+"It seems that there are no featured items to display. <a href=\"%1$s\">Edit "
+"a post. And give it a \"featured\" tag.</a>."
+msgstr ""
+
+#: template-parts/part-featured-posts.php:43
+msgid ""
+"This is the featured posts area. If you read this, it probably means this "
+"website is still under construction – as there are no featured posts to "
+"display, yet. Maybe you should come back later? :)"
+msgstr ""
+
+#: template-parts/part-portfolio.php:61
+msgid "View All"
+msgstr ""
+
+#: template-parts/part-portfolio.php:94
+msgid "Older Posts"
+msgstr ""
+
+#: template-parts/part-portfolio.php:100
+msgid "Newer Posts"
+msgstr ""
+
+#: template-parts/part-portfolio.php:121
+#, php-format
+msgid ""
+"This theme requires the Jetpack by WordPress.com plugin to display portfolio "
+"items. <a href=\"%1$s\">Download it here.</a>."
+msgstr ""
+
+#: template-parts/part-portfolio.php:123
+#, php-format
+msgid ""
+"Already downloaded, installed, and activated Jetpack? <a href=\"%1$s\">Start "
+"publishing here</a>."
+msgstr ""
+
+#: template-parts/part-portfolio.php:127
+msgid ""
+"This is the portfolio area. If you read this, it probably means this website "
+"is still under construction – as there are no portfolio items to display, "
+"yet. Maybe you should come back later? :)"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Genius"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://michaelvandenberg.com/portfolio/genius/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Genius is a simple portfolio theme powered by Isotope. It has a clean, "
+"minimal design; supports a slider for featured posts; and has a filterable "
+"portfolio."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Michael Van Den Berg"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://michaelvandenberg.com/"
+msgstr ""

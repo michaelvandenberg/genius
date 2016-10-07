@@ -1,0 +1,140 @@
+.comment-content a {
+	word-wrap: break-word;
+}
+.bypostauthor {
+	display: block;
+}
+
+.comments-area {
+	padding: 0;
+	margin-bottom: 5em;
+}
+
+.comments-title {
+	margin-top: 0;
+}
+
+.comment-content a {
+	word-wrap: break-word;
+}
+.bypostauthor {
+	display: block;
+}
+
+.comment-list {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 40px;
+	list-style: none;
+	@include font-size(1.125);
+}
+.comment-list .children {
+	margin-left: 1.5em;
+}
+.comment-body {
+	padding: 1.5em 0;
+}
+.children .comment-body {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+.comment-meta {
+	display: block;
+	min-height: 48px;
+	margin-bottom: 0.75em;
+}
+.comment-metadata {
+	font-size: 90%;
+}
+
+.comment-author {
+	.avatar {
+		float: left;
+		margin-right: 12px;
+	}
+}
+.children {
+	list-style: none;
+}
+.depth-2 {
+	background: $color__background-comments;
+}
+.depth-3,
+.depth-4,
+.depth-5 {
+	background: $color__background-comments-depth;
+}
+.comment.depth-1:last-child article {
+	//padding-bottom: 0;
+}
+
+.comment-content a {
+	word-wrap: break-word;
+}
+.bypostauthor {
+	display: block;
+}
+
+.reply {
+	font-size: 90%;
+	margin-bottom: 0.25em;
+}
+.reply a {
+	padding: 5px 12px 7px;
+	text-decoration: none;
+	background: $color__background-dark;
+}
+
+.comment-respond {
+	@include font-size(1);
+}
+
+.comment-form-author label,
+.comment-form-author input,
+.comment-form-email label,
+.comment-form-email input,
+.comment-form-url label,
+.comment-form-url input,
+.comment-form-comment label,
+.comment-form-comment input {
+	display: block;
+	width: 100%;
+}
+
+.comment-form-author label,
+.comment-form-email label,
+.comment-form-url label,
+.comment-form-comment label {
+	margin-bottom: 6px;
+}
+
+.comment-form-author input,
+.comment-form-email input,
+.comment-form-url input,
+.comment-form-comment input,
+textarea#comment {
+	padding: 15px;
+	border: 2px solid currentcolor;
+	background-color: rgba(0, 0, 0, 0.075);
+}
+
+.comment-form-author input:focus,
+.comment-form-email input:focus,
+.comment-form-url input:focus,
+.comment-form-comment input:focus,
+textarea#comment:focus {
+	background-color: white;
+}
+
+.form-submit {
+	margin-top: 3em;
+	margin-bottom: 0;
+}
+
+.no-comments {
+	margin: 0;
+}
+
+.comment-subscription-form {
+	margin-top: 1.5em;
+}

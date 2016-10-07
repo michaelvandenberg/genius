@@ -1,0 +1,38 @@
+.site-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	padding: 1em 0;
+}
+
+/* Site branding. */
+.site-branding {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.custom-logo-link {
+	margin-right: 0.75em;
+}
+.site-title {
+	margin: 1.25em 1.25em 1.25em 0;
+}
+.site-title {
+	font-family: $font__site-title;
+	font-weight: bold;
+	@include font-size(1.75);
+}
+.site-title a,
+.site-title a:visited {
+	text-decoration: none;
+	color: $color__text-main;
+}
+.site-description {
+	display: none;
+}
+
+@media screen and (min-width: $breakpoint-medium) {
+
+
+}

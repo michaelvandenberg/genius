@@ -1,0 +1,297 @@
+.social-menu-wrapper {
+	margin: 0 auto;
+
+	.menu {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+
+	.menu-item {
+		display: inline;
+	}
+
+	a {
+		display: inline-block;
+		width: 48px;
+		height: 48px;
+		color: white;
+		text-decoration: none;
+	}
+
+	a::before {
+		content: '\f475';
+		speak: none;
+		color: white;
+		line-height: 24px;
+		font-family: 'Genericons';
+		font-weight: normal;
+		font-size: 24px;
+		transition: transform 0.125s, color 0.125s ease-in-out;
+		vertical-align: middle;
+		text-align: center;
+		transform: translateY(3px);
+		-webkit-font-smoothing: antialiased;
+	}
+
+	a:hover,
+	a:focus {
+		transform: scale(1.25);
+	}
+}
+
+/* Social icons. */
+.social-menu-wrapper {
+
+	// WordPress & MichaelVanDenBerg.com.
+	a[href*="wordpress.org"],
+	a[href*="wordpress.com"],
+	a[href*="michaelvandenberg.com"] {
+		background: $color__background-social-wordpress;
+	}
+	a[href*="wordpress.org"]::before,
+	a[href*="wordpress.com"]::before,
+	a[href*="michaelvandenberg.com"]::before {
+		content: '\f205';
+	}
+
+	// Facebook.
+	a[href*="facebook.com"],
+	a[href*="facebook.com"] {
+		background: $color__background-social-facebook;
+	}
+	a[href*="facebook.com"]::before {
+		content: '\f204';
+	}
+
+	// Twitter.
+	a[href*="twitter.com"],
+	a[href*="twitter.com"] {
+		background: $color__background-social-twitter;
+	}
+	a[href*="twitter.com"]::before {
+		content: '\f202';
+	}
+
+	// Dribbble.
+	a[href*="dribbble.com"],
+	a[href*="dribbble.com"] {
+		background: $color__background-social-dribbble;
+	}
+	a[href*="dribbble.com"]::before {
+		content: '\f201';
+	}
+
+	// Google+.
+	a[href*="plus.google.com"],
+	a[href*="plus.google.com"] {
+		background: $color__background-social-google;
+	}
+	a[href*="plus.google.com"]::before {
+		content: '\f206';
+	}
+
+	// Pinterest
+	a[href*="pinterest.com"],
+	a[href*="pinterest.com"] {
+		background: $color__background-social-pinterest;
+	}
+	a[href*="pinterest.com"]::before {
+		content: '\f209';
+	}
+
+	// GitHub.
+	a[href*="github.com"],
+	a[href*="github.com"] {
+		background: $color__background-social-github;
+	}
+	a[href*="github.com"]::before {
+		content: '\f200';
+	}
+
+	// Tumblr.
+	a[href*="tumblr.com"],
+	a[href*="tumblr.com"] {
+		background: $color__background-social-tumblr;
+	}
+	a[href*="tumblr.com"]::before {
+		content: '\f214';
+	}
+
+	// YouTube.
+	a[href*="youtube.com"],
+	a[href*="youtube.com"] {
+		background: $color__background-social-youtube;
+	}
+	a[href*="youtube.com"]::before {
+		content: '\f213';
+	}
+
+	// FlickR.
+	a[href*="flickr.com"],
+	a[href*="flickr.com"] {
+		background: $color__background-social-flickr;
+	}
+	a[href*="flickr.com"]::before {
+		content: '\f211';
+	}
+
+	// Vimeo.
+	a[href*="vimeo.com"],
+	a[href*="vimeo.com"] {
+		background: $color__background-social-vimeo;
+	}
+	a[href*="vimeo.com"]::before {
+		content: '\f212';
+	}
+
+	// Instagram.
+	a[href*="instagram.com"],
+	a[href*="instagram.com"] {
+		background: $color__background-social-instagram;
+	}
+	a[href*="instagram.com"]::before {
+		content: '\f215';
+	}
+
+	// Codepen.
+	a[href*="codepen.io"],
+	a[href*="codepen.io"] {
+		background: $color__background-social-codepen;
+	}
+	a[href*="codepen.io"]::before {
+		content: '\f216';
+	}
+
+	// LinkedIn.
+	a[href*="linkedin.com"],
+	a[href*="linkedin.com"] {
+		background: $color__background-social-linkedin;
+	}
+	a[href*="linkedin.com"]::before {
+		content: '\f208';
+	}
+
+	// FourSquare.
+	a[href*="foursquare.com"],
+	a[href*="foursquare.com"] {
+		background: $color__background-social-fouresquare;
+	}
+	a[href*="foursquare.com"]::before {
+		content: '\f226';
+	}
+
+	// Reddit.
+	a[href*="reddit.com"],
+	a[href*="reddit.com"] {
+		background: $color__background-social-reddit;
+	}
+	a[href*="reddit.com"]::before {
+		content: '\f222';
+	}
+
+	// Digg.
+	a[href*="digg.com"],
+	a[href*="digg.com"] {
+		background: $color__background-social-digg;
+	}
+	a[href*="digg.com"]::before {
+		content: '\f221';
+	}
+
+	// StumbleUpon.
+	a[href*="stumbleupon.com"],
+	a[href*="stumbleupon.com"] {
+		background: $color__background-social-stumbleupon;
+	}
+	a[href*="stumbleupon.com"]::before {
+		content: '\f223';
+	}
+
+	// DropBox.
+	a[href*="dropbox.com"],
+	a[href*="dropbox.com"] {
+		background: $color__background-social-dropbox;
+	}
+	a[href*="dropbox.com"]::before {
+		content: '\f223';
+	}
+
+	// Spotify.
+	a[href*="spotify.com"],
+	a[href*="spotify.com"] {
+		background: $color__background-social-spotify;
+	}
+	a[href*="spotify.com"]::before {
+		content: '\f223';
+	}
+
+	// Pocket.
+	a[href*="pocket.com"],
+	a[href*="pocket.com"] {
+		background: $color__background-social-pocket;
+	}
+	a[href*="pocket.com"]::before {
+		content: '\f223';
+	}
+}
+
+/* Hide right social icons. */
+#social-right {
+	display: none;
+}
+
+#mobile-navigation .social-menu-wrapper {
+	padding: 1.25em 0;
+}
+
+@media screen and (min-width: $breakpoint-large) {
+
+	#social-right {
+		display: block;
+
+		.social-menu-wrapper {
+			display: inline;
+			position: fixed;
+			width: auto;
+			right: 0;
+			top: 50%;
+			transform: translateY(-50%);
+			margin-left: 2rem;
+
+			li.menu-item {
+				display: block;
+				margin-left: 4px;
+			}
+
+			a {
+				padding: 0;
+				height: 40px;
+				width: 40px;
+			}
+
+			a::before {
+				display: inline-block;
+			}
+
+			a::after {
+				content: "";
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 40px;
+				height: 100%;
+				width: 30px;
+				background: #161718;
+				z-index: -1;
+			}
+
+			a:hover,
+			a:focus {
+				transform: scale(1);
+				transform: translateX(-12px);
+			}
+		}
+	}
+}

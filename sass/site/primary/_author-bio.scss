@@ -1,0 +1,42 @@
+.author-info {
+	display: flex;
+	margin-bottom: 3em;
+	padding: 24px 20px;
+	font-size: 90%;
+	color: $color__text-light;
+	background: $color__background-dark;
+}
+
+.author-heading {
+	margin-top: 0;
+}
+.author-avatar {
+	display: flex;
+	align-items: center;
+	min-width: 98px;
+	max-width: 98px;
+	margin-right: 1rem;
+}
+.author-title {
+	margin: 0 0 0.25rem 0;
+}
+.author-bio {
+	margin: 0 0 1rem 0;
+}
+
+.author-description a {
+	background: transparent;
+	border: 2px solid;
+	@include font-size(1);
+	line-height: 1;
+	padding: .4em .8em .3em;
+	border-color: $color__text-light;
+	color: $color__text-light;
+	text-decoration: none;
+
+	&:hover,
+	&:active,
+	&:focus {
+		color: $color__link-hover;
+	}
+}
