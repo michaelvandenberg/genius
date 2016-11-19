@@ -157,7 +157,7 @@ function genius_fonts_url() {
 	 * by Open Sans, translate this to 'off'. Do not translate into your own language.
 	 */
 	if ( 'off' !== _x( 'on', 'Open Sans font: on or off', 'genius' ) ) {
-		$fonts = 'Open Sans:400,600,700,800,400italic,700italic';
+		$fonts = 'Open Sans:300,400,600,700,800,300italic,400italic,700italic';
 	}
 
 	if ( $fonts ) {

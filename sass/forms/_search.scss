@@ -43,7 +43,8 @@
 		top: -1px;
 		left: -3px;
 	}
-	.search-submit:hover { 
+	.search-submit:hover,
+	.search-submit:focus { 
 		cursor: pointer; 
 		color: $color__link-hover;
 	}

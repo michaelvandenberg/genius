@@ -46,22 +46,25 @@ a,
 .site-icon,
 .site-title,
 .menu-toggle,
-.flickity-prev-next-button {
+.flickity-prev-next-button, {
 	transition: background 0.25s;
 }
 input.submit,
 .portfolio-title,
 .overlay,
 .reply a,
+.widget a,
 .tagcloud a,
 .entry-meta a,
 .tags-links a,
 .entry-content a,
+.post-categories a,
 .comment-content a,
 .main-navigation a,
 .social-navigation a,
 .author-description a,
-.main-navigation a:after, {
+.main-navigation a:after,
+.tags-links a::before {
 	transition: all 0.25s;
 }
 .post-thumbnail-link img {

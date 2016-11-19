@@ -31,7 +31,7 @@ $custom_copyright = get_theme_mod( 'genius_custom_copyright' );
 	</footer><!-- #colophon -->
 
 	<?php if ( has_nav_menu( 'social' ) ) { ?>
-		<div id="social-right" class="social-navigation">
+		<div id="social-right" class="social-navigation" role="navigation">
 				<?php get_template_part( 'template-parts/navigation-social' ); ?>
 		</div><!-- .social-right -->
 	<?php } ?>

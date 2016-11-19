@@ -1,5 +1,5 @@
 GENIUS
-Theme Version: 0.9.4
+Theme Version: 1.0.0
 Author: Michael Van Den Berg 
 Author URL: https://michaelvandenberg.com/
 
@@ -110,6 +110,15 @@ on the portfolio page can be adjusted under Settings > Writing (at the bottom).
 === Changelog ===
 --------------------
 
+*
+* 1.0.0 / 17.11.2016
+* - Landmark role added for social media menu.
+* - Focus state added for submit button.
+* - Contrast fixed in comments form and widgets and menus.
+* - Changed font-weight of body text to 300.
+* - Some additional style improvements.
+* - Added some Javascript to improve accessibility.
+*
 * 0.9.4 / 29.09.2016
 * - Removed the sass files from the (WordPress.org) distribution copy.
 *

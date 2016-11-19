@@ -33,6 +33,7 @@ a {
 		&:focus,
 		&:active {
 			color: $color__link-hover;
+			background: $color__link;
 		}
 		&:focus {
 			outline: thin dotted;
@@ -82,7 +83,8 @@ a.portfolio-url {
 .entry-meta,
 .entry-content,
 .comment-meta,
-.comment-content {
+.comment-content,
+.logged-in-as {
 	a {
 		color: $color__link-primary;
 

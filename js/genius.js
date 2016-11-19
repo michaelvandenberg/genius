@@ -44,6 +44,47 @@
 		$( this ).toggleClass( 'focus' );
 	});
 
+	// Make focus menu-toggle more intuitif.
+	$( '.menu-toggle' ).click(function(){
+
+		// Move focus to first menu item.
+		$( '.menu-toggle' ).on( 'blur', function() {
+			$( '#mobile-navigation' ).find( 'a:eq(0)' ).focus();
+		});
+
+		// Move focus to menu-toggle.
+		$( '#mobile-navigation .search-submit' ).on( 'blur', function() {
+			$( '.menu-toggle' ).focus();
+		});
+
+	});
+
+	// Make focus search-toggle more intuitif.
+	$( '#search-toggle a' ).click(function(){
+
+		// Add class .toggled on toggle.
+		$( this ).toggleClass( "toggled" );
+
+		// Immediately move focus when opened.
+		if ( $( this ).hasClass( "toggled" ) ) { 
+			$( "#primary-search input" ).focus();
+		}
+
+		// Move focus to search-input.
+		$( "#search-toggle a" ).on( 'blur', function() {
+			$( "#primary-search input" ).focus();
+		});
+
+		// Move focus back to search-toggle.
+		$( "#primary-search .search-submit" ).on( 'blur', function() {
+			$( "#search-toggle a" ).focus();
+		});
+
+	});
+
+	// Add aria-haspopup to menu items with children.
+	$( '#desktop-navigation .menu-item-has-children' ).attr( 'aria-haspopup' , 'true' );
+
 	$( window ).load( function() {
 
 		// Portfolio filtering

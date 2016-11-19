@@ -81,6 +81,14 @@
 			
 		}
 	}
+	&.widget_text {
+		p:first-child {
+			margin-top: 0;
+		}
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
 
 	/* Make sure select elements fit in widgets. */
 	select {
