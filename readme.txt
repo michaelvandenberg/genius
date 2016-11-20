@@ -1,5 +1,5 @@
 GENIUS
-Theme Version: 1.0.0
+Theme Version: 1.0.1
 Author: Michael Van Den Berg 
 Author URL: https://michaelvandenberg.com/
 
@@ -110,6 +110,10 @@ on the portfolio page can be adjusted under Settings > Writing (at the bottom).
 === Changelog ===
 --------------------
 
+*
+* 1.0.1 / 18.11.2016
+* - Removed style I added to check if new sass compiler was working. Oops! :)
+* - Removed unused navigation.js file.
 *
 * 1.0.0 / 17.11.2016
 * - Landmark role added for social media menu.
