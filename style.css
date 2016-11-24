@@ -1,10 +1,10 @@
 /*!
 Theme Name: Genius
-Theme URI: https://michaelvandenberg.com/portfolio/genius/
+Theme URI: https://michaelvandenberg.com/themes/#genius
 Author: Michael Van Den Berg
 Author URI: https://michaelvandenberg.com/
 Description: Genius is a simple portfolio theme powered by Isotope. It has a clean, minimal design; supports a slider for featured posts; and has a filterable portfolio. 
-Version: 1.0.1
+Version: 1.0.2
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: genius
@@ -1194,23 +1194,23 @@ a:hover, a:active {
 }
 
 #secondary a,
-#footer a,
+#colophon a,
 #hidden-header a,
 .no-results .notice-box a {
   color: #f1f2f3;
 }
 
 #secondary a:visited,
-#footer a:visited,
+#colophon a:visited,
 #hidden-header a:visited,
 .no-results .notice-box a:visited {
   color: #f1f2f3;
 }
 
 #secondary a:hover, #secondary a:focus, #secondary a:active,
-#footer a:hover,
-#footer a:focus,
-#footer a:active,
+#colophon a:hover,
+#colophon a:focus,
+#colophon a:active,
 #hidden-header a:hover,
 #hidden-header a:focus,
 #hidden-header a:active,
@@ -1222,15 +1222,15 @@ a:hover, a:active {
 }
 
 #secondary a:focus,
-#footer a:focus,
+#colophon a:focus,
 #hidden-header a:focus,
 .no-results .notice-box a:focus {
   outline: thin dotted;
 }
 
 #secondary a:hover, #secondary a:active,
-#footer a:hover,
-#footer a:active,
+#colophon a:hover,
+#colophon a:active,
 #hidden-header a:hover,
 #hidden-header a:active,
 .no-results .notice-box a:hover,
@@ -2417,7 +2417,7 @@ span.comments-link {
 }
 
 /* Portfolio page template. */
-.portfolio .hentry {
+.portfolio article.page {
   margin-bottom: 0;
 }
 

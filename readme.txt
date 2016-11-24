@@ -1,5 +1,5 @@
 GENIUS
-Theme Version: 1.0.1
+Theme Version: 1.0.2
 Author: Michael Van Den Berg 
 Author URL: https://michaelvandenberg.com/
 
@@ -110,6 +110,11 @@ on the portfolio page can be adjusted under Settings > Writing (at the bottom).
 === Changelog ===
 --------------------
 
+*
+* 1.0.2 / 24.11.2016
+* - Fixed accessibility issue with links in the footer.
+* - Fixed bottom gutter margin for portfolio items on portfolio pages.
+* - Changed theme URI to: https://michaelvandenberg.com/themes/#genius
 *
 * 1.0.1 / 18.11.2016
 * - Removed style I added to check if new sass compiler was working. Oops! :)
