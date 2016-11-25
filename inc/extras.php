@@ -25,8 +25,13 @@ function genius_body_classes( $classes ) {
 	}
 
 	// Adds a class if the page is the front page and is using the portfolio or front page template.
-	if ( is_front_page() &&  ( is_page_template( 'template-parts/template-portfolio.php' ) || is_page_template( 'template-parts/template-front-page.php' ) ) ) {
+	if ( is_front_page() && ( ( is_page_template( 'template-parts/template-portfolio.php' ) || is_page_template( 'template-parts/template-front-page.php' ) ) ) ) {
 		$classes[] = 'frontpage-and-portfolio';
+	}
+
+	// Adds a class if the page is using the portfolio or front page template.
+	if ( is_page_template( 'template-parts/template-portfolio.php' ) || is_page_template( 'template-parts/template-front-page.php' ) ) {
+		$classes[] = 'load-isotope';
 	}
 
 	// Adds a class if page template doesn't display the sidebar.

@@ -1,5 +1,5 @@
 GENIUS
-Theme Version: 1.0.2
+Theme Version: 1.0.3
 Author: Michael Van Den Berg 
 Author URL: https://michaelvandenberg.com/
 
@@ -110,6 +110,10 @@ on the portfolio page can be adjusted under Settings > Writing (at the bottom).
 === Changelog ===
 --------------------
 
+*
+* 1.0.3 / 25.11.2016
+* - When changing the theme URI one should not forget the footer.
+* - Fixed: "Uncaught TypeError: $container.isotope is not a function".
 *
 * 1.0.2 / 24.11.2016
 * - Fixed accessibility issue with links in the footer.

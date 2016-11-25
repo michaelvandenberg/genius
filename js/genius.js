@@ -87,31 +87,34 @@
 
 	$( window ).load( function() {
 
-		// Portfolio filtering
-		var $container = $( '.portfolio-wrapper' );
+		if ( $( 'body' ).hasClass( 'load-isotope' ) ) {
 
-		$container.isotope( {
-			filter: '*',
-			itemSelector: '.portfolio-item',
-			layoutMode: 'fitRows',
-			resizable: true,
-			percentPosition: true,
-			fitRows: {
-				gutter: '.gutter-sizer'
-			}
-		  } );
+			// Portfolio filtering
+			var $container = $( '.portfolio-wrapper' );
 
-		// filter items when filter link is clicked
-		$( '.portfolio-filter li' ).click( function(){
-			var selector = $( this ).attr( 'data-filter' );
-				$container.isotope( { 
-					filter: selector,
-				} );
-			$( '.portfolio-filter li' ).removeClass( 'active' );
-			$( this ).addClass( 'active' );
+			$container.isotope( {
+				filter: '*',
+				itemSelector: '.portfolio-item',
+				layoutMode: 'fitRows',
+				resizable: true,
+				percentPosition: true,
+				fitRows: {
+					gutter: '.gutter-sizer'
+				}
+			  } );
 
-		  return false;
-		} );
+			// filter items when filter link is clicked
+			$( '.portfolio-filter li' ).click( function(){
+				var selector = $( this ).attr( 'data-filter' );
+					$container.isotope( { 
+						filter: selector,
+					} );
+				$( '.portfolio-filter li' ).removeClass( 'active' );
+				$( this ).addClass( 'active' );
+
+			  return false;
+			} );
+		} // End If.
 	} );
 
 })( jQuery );

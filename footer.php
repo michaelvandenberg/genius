@@ -26,7 +26,7 @@ $custom_copyright = get_theme_mod( 'genius_custom_copyright' );
 				<?php } ?>
 				<span class="generator"><?php echo __( 'Powered by ', 'genius' ); ?><a href="<?php echo esc_url( __( 'http://wordpress.org/', 'genius' ) ); ?>" rel="generator">WordPress</a></span>
 				<span class="sep"> | </span>
-				<span class="designer"><?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'genius' ), '<a href="https://michaelvandenberg.com/portfolio/genius/" rel="theme">Genius</a>', 'Michael Van Den Berg' ); ?></span>
+				<span class="designer"><?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'genius' ), '<a href="https://michaelvandenberg.com/themes/#genius" rel="theme">Genius</a>', 'Michael Van Den Berg' ); ?></span>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 
