@@ -1,5 +1,5 @@
 GENIUS
-Theme Version: 1.0.3
+Theme Version: 1.0.4
 Author: Michael Van Den Berg 
 Author URL: https://michaelvandenberg.com/
 
@@ -110,6 +110,14 @@ on the portfolio page can be adjusted under Settings > Writing (at the bottom).
 === Changelog ===
 --------------------
 
+*
+* 1.0.4 / 27.11.2016
+* - Fixed jagged animation of Menu Toggle caused by new version of Autoprefixer.
+* - For more info on the previous issue see: https://github.com/postcss/autoprefixer/issues/748
+* - Added aria-hidden="true" to span.meta-nav in cases where it wasn't already there.
+* - Reduced margin-top for .site-title on smaller screens.
+* - Focus state added for first level menu items.
+* - Published by and the author name in the bio section are combined into a single line.
 *
 * 1.0.3 / 25.11.2016
 * - When changing the theme URI one should not forget the footer.

@@ -4,7 +4,7 @@ Theme URI: https://michaelvandenberg.com/themes/#genius
 Author: Michael Van Den Berg
 Author URI: https://michaelvandenberg.com/
 Description: Genius is a simple portfolio theme powered by Isotope. It has a clean, minimal design; supports a slider for featured posts; and has a filterable portfolio. 
-Version: 1.0.3
+Version: 1.0.4
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: genius
@@ -860,7 +860,7 @@ input.submit,
 }
 
 .site-title {
-  margin: 1.25em 1.25em 1.25em 0;
+  margin: 0.1em 1.25em 1.25em 0;
 }
 
 .site-title {
@@ -878,6 +878,12 @@ input.submit,
 
 .site-description {
   display: none;
+}
+
+@media screen and (min-width: 940px) {
+  .site-title {
+    margin-top: 1.25em;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1380,7 +1386,8 @@ a.portfolio-url:active {
   background: #cc0000;
 }
 
-#desktop-navigation .menu-item a:hover::after {
+#desktop-navigation .menu-item a:hover::after,
+#desktop-navigation .menu-item a:focus::after {
   top: 0.25em;
   opacity: 1;
 }
@@ -1396,7 +1403,8 @@ a.portfolio-url:active {
   -webkit-backface-visibility: hidden;
 }
 
-#desktop-navigation .menu-item-has-children a:hover::after {
+#desktop-navigation .menu-item-has-children a:hover::after,
+#desktop-navigation .menu-item-has-children a:focus::after {
   top: 0;
   opacity: 0;
 }
@@ -1541,26 +1549,22 @@ a.portfolio-url:active {
   height: 3px;
   background-color: white;
   content: "";
-  -webkit-transition-duration: 0.3s, 0.3s;
-          transition-duration: 0.3s, 0.3s;
-  -webkit-transition-delay: 0.3s, 0s;
-          transition-delay: 0.3s, 0s;
 }
 
 .toggle-lines::before {
   top: -8px;
-  -webkit-transition-property: top, -webkit-transform;
-  transition-property: top, -webkit-transform;
-  transition-property: top, transform;
-  transition-property: top, transform, -webkit-transform;
+  -webkit-transition: top 0.3s 0.3s, 0s, -webkit-transform 0.3s;
+  transition: top 0.3s 0.3s, 0s, -webkit-transform 0.3s;
+  transition: top 0.3s 0.3s, transform 0.3s, 0s;
+  transition: top 0.3s 0.3s, transform 0.3s, 0s, -webkit-transform 0.3s;
 }
 
 .toggle-lines::after {
   bottom: -8px;
-  -webkit-transition-property: bottom, -webkit-transform;
-  transition-property: bottom, -webkit-transform;
-  transition-property: bottom, transform;
-  transition-property: bottom, transform, -webkit-transform;
+  -webkit-transition: bottom 0.3s 0.3s, 0s, -webkit-transform 0.3s;
+  transition: bottom 0.3s 0.3s, 0s, -webkit-transform 0.3s;
+  transition: bottom 0.3s 0.3s, transform 0.3s, 0s;
+  transition: bottom 0.3s 0.3s, transform 0.3s, 0s, -webkit-transform 0.3s;
 }
 
 .menu-toggled .toggle-lines {
@@ -1949,7 +1953,7 @@ a.portfolio-url:active {
   border-radius: 3px;
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
   clip: auto !important;
-  color: #21759b;
+  color: #272829;
   display: block;
   font-size: 14px;
   font-size: 0.875rem;
@@ -2830,6 +2834,8 @@ textarea#comment:focus {
 
 .author-title {
   margin: 0 0 0.25rem 0;
+  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .author-bio {

@@ -7,8 +7,6 @@
 ?>
 
 <div class="author-info">
-	<h2 class="author-heading screen-reader-text"><?php esc_html_e( 'Published by', 'genius' ); ?></h2>
-
 	<div class="author-avatar">
 		<?php
 		/**
@@ -23,7 +21,10 @@
 	</div><!-- .author-avatar -->
 
 	<div class="author-description">
-		<h3 class="author-title"><?php echo esc_html( get_the_author() ); ?></h3>
+		<h2 class="author-title">
+			<span class="screen-reader-text author-published-by"><?php esc_html_e( 'Published by ', 'genius' ); ?></span>
+			<span class="the-author"><?php echo esc_html( get_the_author() ); ?></span>
+		</h2>
 
 		<span class="author-bio">
 			<?php  echo wp_kses( wpautop( get_the_author_meta( 'description' ) ), array(
